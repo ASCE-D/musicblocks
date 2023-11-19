@@ -73,6 +73,11 @@
 #floatingWindows > .windowFrame > .wfTopBar .wftButton.close::after {
     transform: translate(-50%, -50%) rotate(-45deg);
 }
+#floatingWindows > .windowFrame > .wfTopBar .wftButton.close:hover {
+    background-color: red;
+    
+}
+
 #floatingWindows > .windowFrame > .wfTopBar .wftTitle {
     line-height: 21px;
     flex-grow: 1;
